@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rHqWufn0KJ4=",
+  "success": true,
+  "projectFilePath": "C:\\Projeto API do youtube\\youtubeAPI\\youtubeAPI\\youtubeAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\clebe\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
+    "C:\\Users\\clebe\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
+    "C:\\Users\\clebe\\.nuget\\packages\\google.apis.core\\1.68.0\\google.apis.core.1.68.0.nupkg.sha512",
+    "C:\\Users\\clebe\\.nuget\\packages\\google.apis.youtube.v3\\1.68.0.3570\\google.apis.youtube.v3.1.68.0.3570.nupkg.sha512",
+    "C:\\Users\\clebe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\clebe\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\clebe\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
