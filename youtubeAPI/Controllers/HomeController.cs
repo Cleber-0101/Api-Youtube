@@ -18,14 +18,14 @@ namespace youtubeAPI.Controllers
         {
             var youtubeServices = new YouTubeService(new BaseClientService.Initializer
             {
-                ApiKey = "Por segurança e permitido deixar a chave publica da API",  
+                ApiKey = "Por motivos de segurança dos dados foi removido a chave da API",  
                 ApplicationName = "YoutubeApiVideo"
             });
 
             var searchRequest = youtubeServices.Search.List("snippet");
             searchRequest.ChannelId = "UCwVzFkXszeP__iWXNV2EjhA";  
             searchRequest.Order = SearchResource.ListRequest.OrderEnum.Date;
-            searchRequest.MaxResults = 10;
+            searchRequest.MaxResults = 30;
 
             try
             {
