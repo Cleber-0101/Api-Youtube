@@ -2,7 +2,6 @@
 {
     public class DetalhesDosVideos
     {
-        //pode ser que os dados venham nulos
         public string? Titulo { get; set; }
         public string? Descricao { get; set; }
         public string?  Link { get; set; }

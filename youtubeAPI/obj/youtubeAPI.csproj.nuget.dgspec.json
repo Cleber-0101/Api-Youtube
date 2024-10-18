@@ -49,6 +49,10 @@
             "Google.Apis.YouTube.v3": {
               "target": "Package",
               "version": "[1.68.0.3570, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             }
           },
           "imports": [

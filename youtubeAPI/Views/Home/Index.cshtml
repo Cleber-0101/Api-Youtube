@@ -7,7 +7,15 @@
         foreach (var video in Model)
         {
             <div class="card text-bg-dark" style="width: 18rem; margin-left:10px; margin-top:25px">
+                <a href="@video.Link" class="btn btn-dark w-100" target="_blank"> Assistir
+                    <img src="@video.tumb" class="card-img-top" />
 
+                    <div class="card-body">
+                        <p class="card-text">@video.publicacao</p>
+                        <h5 class="card-title" style="font-size:11px">@video.Titulo</h5>
+                    </div>
+
+                </a>
             </div>
         }   
     }
