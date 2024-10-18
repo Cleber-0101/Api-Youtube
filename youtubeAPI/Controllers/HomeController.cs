@@ -18,12 +18,12 @@ namespace youtubeAPI.Controllers
         {
             var youtubeServices = new YouTubeService(new BaseClientService.Initializer
             {
-                ApiKey = "AIzaSyB_fLZcJiXvruTZQL2Ic4u9uYgbUkRuOH4",  // Insira a chave válida aqui
+                ApiKey = "Por segurança e permitido deixar a chave publica da API",  
                 ApplicationName = "YoutubeApiVideo"
             });
 
             var searchRequest = youtubeServices.Search.List("snippet");
-            searchRequest.ChannelId = "UCwVzFkXszeP__iWXNV2EjhA";  // Insira o ID correto do canal
+            searchRequest.ChannelId = "UCwVzFkXszeP__iWXNV2EjhA";  
             searchRequest.Order = SearchResource.ListRequest.OrderEnum.Date;
             searchRequest.MaxResults = 10;
 
@@ -46,9 +46,8 @@ namespace youtubeAPI.Controllers
             }
             catch (Google.GoogleApiException ex)
             {
-                // Log do erro
                 Console.WriteLine($"Erro ao buscar vídeos: {ex.Message}");
-                return new List<DetalhesDosVideos>(); // Retorna uma lista vazia em caso de erro
+                return new List<DetalhesDosVideos>(); 
             }
         }
     }
